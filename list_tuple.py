@@ -36,3 +36,8 @@ print(thislist)
 newlist = ["apple", "banana", "cherry"]
 newlist.pop(0)
 print(newlist)
+
+thislist.clear()
+print(thislist)
+
+numberlist = (x for x in range [10])
