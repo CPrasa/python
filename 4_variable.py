@@ -1,0 +1,17 @@
+x = 24
+y = "Chathurya"
+
+print("My name is ",y, "I am ", x, "years old")
+
+a = int(3)
+b = str('3')
+c = float(3)
+
+print(a)
+print(b)
+print(c)
+
+
+print(type(a))
+print(type(b))
+print(type(c))
