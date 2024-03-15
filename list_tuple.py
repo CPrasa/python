@@ -13,9 +13,7 @@ print(type(colors))
 list1 = ["name", 5, True, 3.6, "8"]
 print(list1)
 print(type(list1))
-list1 = ["name", 5, True, 3.6, "8"]
-print(list1)
-print(type(list1))
+
 
 print(list1[1])
 print(list1[-2])
