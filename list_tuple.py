@@ -41,4 +41,10 @@ print(newlist)
 thislist.clear()
 print(thislist)
 
-numberlist = (x for x in range [10])
+
+
+listA = ["Apple", "Mango", "Banana","WoodApple","Orange"]
+print(listA)
+
+print(listA[0])
+
