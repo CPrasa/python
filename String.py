@@ -9,3 +9,8 @@ x = 24
 text = "My name is Chathurya Prasad, I am {} yers old"
 
 print(text.format(x))
+
+##text encode
+
+y = text.encode()
+print(y)
