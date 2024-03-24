@@ -54,3 +54,8 @@ del car1.brand
 
 class myclass :
   pass
+
+
+class Chathury:
+  pass
+  
