@@ -59,3 +59,13 @@ class myclass :
 class Chathury:
   pass
   
+  
+class Bus :
+  def __init__(bus,color,brand):
+    bus.color=color
+    bus.brand=brand  
+    
+bus1 = Bus('red','TATA')
+
+
+print(bus1.brand)    
