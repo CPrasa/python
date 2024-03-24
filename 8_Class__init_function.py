@@ -63,9 +63,16 @@ class Chathury:
 class Bus :
   def __init__(bus,color,brand):
     bus.color=color
-    bus.brand=brand  
+    bus.brand=brand
+    
+    
+  def mybus(bus, speed, test):
+    bus.speed = speed
+    bus.test = test 
+      
     
 bus1 = Bus('red','TATA')
+
 
 
 print(bus1.brand)  
