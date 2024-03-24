@@ -72,10 +72,8 @@ class Bus :
       
     
 bus1 = Bus('red','TATA')
-bus1 = bus1.mybus('250','green card')
+bus1.mybus('250','green card')
 
 print(bus1.speed)
-
-
 print(bus1.brand)  
 print(bus1.color)  
