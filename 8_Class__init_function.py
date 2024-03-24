@@ -68,4 +68,5 @@ class Bus :
 bus1 = Bus('red','TATA')
 
 
-print(bus1.brand)    
+print(bus1.brand)  
+print(bus1.color)  
