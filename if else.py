@@ -19,7 +19,7 @@ else :
 m = True
 n = 6.5
 
-if m == True:
+if m == False:
   print("m is correct") 
   
 else :
