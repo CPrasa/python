@@ -10,4 +10,7 @@ for i in list:
   
 ###print name vowels
 
+x = "Chathurya Prasad"
+print(len(x))
+
   
