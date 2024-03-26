@@ -12,9 +12,12 @@ for i in list:
 
 x = "Chathurya Prasad"
 print(len(x))
-b = 0
+
 for i in range(len(x)):
-  print(x[i])
+  if x[i] in list_a:
+    print(x[i])
+  
+    
 
   
   
