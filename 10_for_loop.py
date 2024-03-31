@@ -16,7 +16,13 @@ print(len(x))
 for i in range(len(x)):
   if x[i] in list_a:
     print(x[i])
-  
+
+x = "Chathurya Prasad"
+print(len(x))
+
+for i in range(len(x)):
+  if x[i] in list_a:
+    print(x[i])  
     
 
   
