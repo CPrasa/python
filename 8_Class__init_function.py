@@ -77,3 +77,18 @@ bus1.mybus('255','green card')
 
 print(bus1.speed)
 print(bus1.brand) 
+
+
+
+class Trees:
+  def __init__(tree, type, hight):
+    tree.type = type
+    tree.hight = hight
+    
+tree1=  Trees("Short", "252")
+
+print(tree1.hight)   
+  
+class family:
+  def __intit__(father, mother, son, sister):
+    pass
