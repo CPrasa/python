@@ -92,3 +92,5 @@ print(tree1.hight)
 class family:
   def __intit__(father, mother, son, sister):
     pass
+  
+print(Trees)
