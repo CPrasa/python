@@ -9,3 +9,7 @@ print(y(4,3,2))
 
 z = lambda z : 5*z
 print(z(5))
+
+
+m = lambda m : 6*m
+print(m(3))
