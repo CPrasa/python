@@ -16,3 +16,7 @@ x.printname()
 
 class Student(Person):
   pass
+
+
+y = Student("Chathurya", "Prasad")
+y.printname()
