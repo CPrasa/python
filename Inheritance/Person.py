@@ -5,3 +5,9 @@ class Person:
     
   def printname(self):
     print(self.firstname, self.lastname)
+    
+    
+  #Use the person class to create an object, and then execute the printname method:
+  
+x = Person("John","Doe")
+x.printname()
