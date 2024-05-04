@@ -1,5 +1,4 @@
-# Python program to 
-# demonstrate protected members 
+
 
 # Creating a base class 
 class Base: 
