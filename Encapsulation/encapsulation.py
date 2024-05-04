@@ -28,8 +28,7 @@ obj1 = Derived()
 
 obj2 = Base() 
 
-# Calling protected member 
-# Can be accessed but should not be done due to convention 
+
 print("Accessing protected member of obj1: ", obj1._a) 
 
 # Accessing the protected variable outside 
