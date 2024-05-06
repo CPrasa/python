@@ -13,8 +13,12 @@ class Derived(Base):
     #calling constructor of Base class
     
     Base.__init__(self)
-    print("Calling protected member of base class: " self._a)
+    print("Calling protected member of base class: ", self._a)
     
     #Modifiy the protected variable:
     self._a =3
     print("calling modified proteccted member outside class: ", self._a)
+    
+    
+obj1 = Derived()
+obj2 = Base()
