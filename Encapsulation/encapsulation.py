@@ -22,3 +22,7 @@ class Derived(Base):
     
 obj1 = Derived()
 obj2 = Base()
+
+
+print(obj1._a)
+print(obj2._a)
