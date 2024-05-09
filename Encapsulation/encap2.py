@@ -29,6 +29,13 @@ class Parant:
         self.name = name
         self.age = age
         self.child = child
-        self.salary = salary
+        self.__salary = salary
         
+
+class son(Parant):
+    def __init__(self):
+        pass
+    
+
         
+              
