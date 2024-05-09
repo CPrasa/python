@@ -22,3 +22,13 @@ obj1 = Base()
 print(obj1.a)
 obj1.get_c()
 print(obj1.__c)
+
+
+class Parant:
+    def __init__(self, name, age, child, salary):
+        self.name = name
+        self.age = age
+        self.child = child
+        self.salary = salary
+        
+        
