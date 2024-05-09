@@ -24,20 +24,22 @@ print(obj1.a)
 
 
 
-class Parant:
+class Perant:
     def __init__(self, name, age, child, salary):
         self.name = name
         self.age = age
         self.child = child
         self.__salary = salary
-        
+    def get_salary(self):
+        return self.__salary
 
-class son(Parant):
+class son(Perant):
     def __init__(self):
         pass
     
-a = Parant("Chathu","24","Son1","200000")
+a = Perant("Chathu","24","Son1","200000")
 print(a.age)
-print(a.__salary)
+
+print(a.get_salary())
         
               
