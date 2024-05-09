@@ -20,8 +20,8 @@ class Derived(Base):
 # Driver code 
 obj1 = Base() 
 print(obj1.a)
-obj1.get_c()
-print(obj1.__c)
+
+
 
 
 class Parant:
@@ -36,6 +36,8 @@ class son(Parant):
     def __init__(self):
         pass
     
-
+a = Parant("Chathu","24","Son1","200000")
+print(a.age)
+print(a.__salary)
         
               
